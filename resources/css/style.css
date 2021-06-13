@@ -39,10 +39,10 @@ li {
 
 #pfp {
   display: block;
-  margin: 30px auto 30px;
+  margin: 20px auto 20px;
   filter: grayscale(100%);
   height: auto;
-  width: 50%;
+  width: 80%;
 }
 
 .link {
@@ -59,4 +59,10 @@ li {
 .section {
   margin-left: 30px;
   line-height: 2.5;
+}
+
+.tab { margin-left: 40px; }
+
+.poetry {
+  white-space: pre-wrap;
 }
