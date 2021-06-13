@@ -61,6 +61,11 @@ li {
   line-height: 2.5;
 }
 
+.section-dense {
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
 .tab { margin-left: 40px; }
 
 .poetry {
