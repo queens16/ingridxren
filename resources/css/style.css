@@ -58,11 +58,13 @@ li {
 
 .section {
   margin-left: 30px;
+  margin-right: 30px;
   line-height: 2.5;
 }
 
 .section-dense {
   margin-left: 30px;
+  margin-right: 30px;
   line-height: 1.5;
 }
 
