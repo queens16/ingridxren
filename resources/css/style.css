@@ -1,11 +1,19 @@
 /* If the screen size is 601px wide or more*/
 @media screen and (min-width: 601px) {
   html { font-size: 1.25vw; }
+
+  #pfp {
+    max-width: 70%;
+  }
 }
 
 /* If the screen size is 600px wide or less*/
 @media screen and (max-width: 600px) {
   html { font-size: 3vw; }
+
+  #pfp {
+    max-width: 100%;
+  }
 }
 
 @font-face {
@@ -27,7 +35,16 @@ ul {
 
 li {
   float: right;
+  font-size: 16px;
   margin-left: 10px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+hr {
+  max-width: 90%;
 }
 
 .container {
@@ -35,25 +52,18 @@ li {
   max-width: 50%;
   padding: 10px;
   margin: 30px auto 30px;
-  box-shadow: 0 0 20px #888888 ;
+  box-shadow: 0 0 20px #888888;
+  border-radius: 5px;
 }
 
 .header {
   text-align: right;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .footer {
   text-align: center;
   padding: 15px;
-}
-
-#pfp {
-  display: block;
-  margin: 20px auto 20px;
-  filter: grayscale(100%);
-  height: auto;
-  max-width: 100%;
 }
 
 .link {
@@ -83,4 +93,11 @@ li {
 
 .poetry {
   white-space: pre-wrap;
+}
+
+#pfp {
+  display: block;
+  margin: 30px auto 20px;
+  filter: grayscale(100%);
+  height: auto;
 }
