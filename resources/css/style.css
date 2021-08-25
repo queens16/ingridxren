@@ -47,6 +47,18 @@ hr {
   max-width: 90%;
 }
 
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
 .container {
   min-width: 300px;
   max-width: 50%;
