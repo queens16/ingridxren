@@ -2,22 +2,22 @@
 <html>
 
 <head>
-  <script src="resources/js/header.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script> 
+    $(function(){
+      $("#includedContent").load("templates/head.html"); 
+    });
+  </script>
 </head>
 
 <body>
   <div class="container">
 
-    <div class="header">
-      <h2 class="link" ><a class="link" href="/">Ingrid Ren</a></h2>
-      <nav>
-        <ul>
-          <li><a class="link" href="writing">writing</a></li>
-            <li>-</li>
-            <li><a class="link" href="about">about</a></li>
-        </ul>
-      </nav>
-    </div>
+    <script> 
+      $(function(){
+        $("#includedContent").load("templates/header.html"); 
+      });
+    </script>
 
     <figure>
       <a class="link" href="about">
@@ -27,9 +27,11 @@
 
     <hr>
 
-    <div class="footer">
-      <a class="link" href = "mailto:ingrid.x.ren@gmail.com" target="_blank" rel="noopener noreferrer">contact</a>
-    </div>
+    <script> 
+      $(function(){
+        $("#includedContent").load("templates/footer.html"); 
+      });
+    </script>
 
   </div>
 </body>
