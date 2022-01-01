@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> writing</title>
-  <link rel="shortcut icon" type="image/jpg" href="resources/images/grapefruit.png"/>
-  <link rel="stylesheet" href="resources/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="UQSAKDiKk-T-4y41pvQQpmeV-6jI_oNpuYQefo2x56M" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script> 
+    $(function(){
+      $(".head").load("templates/head.html");
+      $(".header").load("templates/header.html");
+      $(".footer").load("templates/footer.html");
+    });
+  </script>
+  <div class="head"></div>
 </head>
-
 <body>
-      <div class="container">
-
-    <div class="header">
-        <h2 class="link" ><a class="link" href="/">Ingrid Ren</a></h2>
-        <nav>
-        <ul>
-            <li><a class="link" href="writing">writing</a></li>
-                <li>-</li>
-            <li><a class="link" href="about">about</a></li>
-        </ul>
-      </nav>
-    </div>
-
+  <div class="container">
+    <div class="header"> </div>
     <div id="memoir-cnf" class="section">
       <p>
         <h2>memoir</h2>
@@ -35,7 +27,6 @@
         <a class="link" href="https://blogs.colum.edu/youngauthors/2018/05/16/talk-to-me-third-place-in-nonfiction/" target="_blank" rel="noopener noreferrer">talk to me (columbia college chicago)</a> <br>
       </p>
     </div>
-
     <div id="poetry" class="section">
         <p>
           <h2>poetry</h2>
@@ -46,7 +37,6 @@
           <a class="link" href="i-remember">i remember</a>      
         </p>
       </div>
-
     <div id="interviews-journalism" class="section">
         <p>
           <h2>interviews & news</h2>
@@ -54,13 +44,8 @@
           <a class="link" href="http://haefa.org/blog/2020/8/4/interning-at-haefa-with-grants-and-finance-director-mir-hushna" target="_blank" rel="noopener noreferrer">interview with grants and finance director mir hushna (haefa)</a>
         </p>
       </div>
-
     <hr>
-
-    <div class="footer">
-        <a class="link" href = "mailto:ingrid.x.ren@gmail.com" target="_blank" rel="noopener noreferrer">contact</a>
-    </div>
-
+    <div class="footer"> </div>
   </div>
 </body>
 </html>

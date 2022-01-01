@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
   <script> 
     $(function(){
-      $("#includedContent").load("templates/head.html"); 
+      $(".head").load("templates/head.html");
+      $(".header").load("templates/header.html");
+      $(".footer").load("templates/footer.html");
     });
   </script>
+  <div class="head"></div>
 </head>
-
 <body>
   <div class="container">
-
-    <script> 
-      $(function(){
-        $("#includedContent").load("templates/header.html"); 
-      });
-    </script>
-
+    <div class="header"></div>
     <figure>
       <a class="link" href="about">
         <img id="pfp" src="resources/images/ingrid.jpg">
       </a>
     </figure>
-
     <hr>
-
-    <script> 
-      $(function(){
-        $("#includedContent").load("templates/footer.html"); 
-      });
-    </script>
-
+    <div class="footer"></div>
   </div>
 </body>
 </html>
