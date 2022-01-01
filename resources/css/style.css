@@ -104,7 +104,11 @@ q::after {
 .tab { margin-left: 40px; }
 
 .poetry {
-  white-space: pre-wrap;
+  white-space: pre-line;
+}
+
+.footnote {
+  font-size: 12px;
 }
 
 #pfp {
