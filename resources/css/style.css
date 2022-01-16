@@ -107,6 +107,10 @@ q::after {
   white-space: pre-line;
 }
 
+.prose {
+  white-space: pre-wrap;
+  }
+
 .footnote {
   font-size: 12px;
 }
