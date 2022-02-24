@@ -105,10 +105,12 @@ q::after {
 
 .poetry {
   white-space: pre-line;
+  line-height: 200%;
 }
 
 .prose {
   white-space: pre-wrap;
+  line-height: 200%;
   }
 
 .footnote {
